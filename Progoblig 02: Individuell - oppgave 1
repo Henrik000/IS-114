@@ -1,0 +1,16 @@
+fun nordiske-flagg(color1, color2, color3):
+  overlay-align("left", "bottom", rectangle(32, 28, "solid", color1), overlay-align("left", "top", rectangle(32, 28, "solid", color1), overlay-align("right", "top", rectangle(70, 28, "solid", color1), overlay-align("right", "bottom", rectangle(70, 28, "solid", color1), 
+          
+          overlay-align("left", "bottom", rectangle(37, 34, "solid", color2), overlay-align("left", "top", rectangle(37, 34, "solid", color2), overlay-align("right", "top", rectangle(75, 34, "solid", color2), overlay-align("right", "bottom", rectangle(75, 34, "solid", color2), 
+                  rectangle(125, 80, "solid", color3)))))))))
+end
+
+nordiske-flagg("white", "blue", "blue")
+
+nordiske-flagg("red", "white", "blue")
+
+nordiske-flagg("dodger-blue", "dodger-blue", "yellow")
+
+nordiske-flagg("red", "red", "white")
+
+nordiske-flagg("medium-blue", "white", "red")
